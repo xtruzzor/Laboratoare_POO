@@ -35,13 +35,5 @@ public class Lab1_POO {
         listaCuvinte.add("Al treilea");
         System.out.println("Numărul de cuvinte în listă: " + listaCuvinte.size());
 
-        // f. Streamuri (Java 8+)
-        listaCuvinte
-                .stream()
-                .filter(s -> s.startsWith("A"))
-                .forEach(System.out::println);
-
-        // g. Alte subiecte pot fi adăugate aici
-
     }
 }
