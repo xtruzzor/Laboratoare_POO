@@ -23,7 +23,7 @@ public class Lab1_POO {
 
         // d. Excepții
         try {
-            int rezultat = numere[10]; // Aici se va genera o excepție ArrayIndexOutOfBoundsException
+            int rezultat = numere[10];
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("A apărut o excepție: " + e.getMessage());
         }
@@ -34,14 +34,6 @@ public class Lab1_POO {
         listaCuvinte.add("Al doilea");
         listaCuvinte.add("Al treilea");
         System.out.println("Numărul de cuvinte în listă: " + listaCuvinte.size());
-
-        // f. Streamuri (Java 8+)
-        listaCuvinte
-                .stream()
-                .filter(s -> s.startsWith("A"))
-                .forEach(System.out::println);
-
-        // g. Alte subiecte pot fi adăugate aici
 
     }
 }
