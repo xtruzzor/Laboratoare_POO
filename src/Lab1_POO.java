@@ -30,9 +30,9 @@ public class Lab1_POO {
 
         // e. Liste
         java.util.List<String> listaCuvinte = new java.util.ArrayList<>();
-        listaCuvinte.add("Primul");
-        listaCuvinte.add("Al doilea");
-        listaCuvinte.add("Al treilea");
+        listaCuvinte.add("Măr");
+        listaCuvinte.add("Masă");
+        listaCuvinte.add("Java");
         System.out.println("Numărul de cuvinte în listă: " + listaCuvinte.size());
 
     }
